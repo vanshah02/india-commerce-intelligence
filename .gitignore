@@ -34,3 +34,4 @@ dist/
 # Exclude local datasets from GitHub
 data/raw/
 data/processed/
+.vscode/
