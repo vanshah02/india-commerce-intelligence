@@ -1,0 +1,36 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Database files
+*.sqlite
+*.db
+
+# Build files
+build/
+dist/
+
+# Exclude local datasets from GitHub
+data/raw/
+data/processed/
